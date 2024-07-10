@@ -24,7 +24,7 @@ function App() {
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Email:</label>
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="form-control required />
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="form-control" required />
         </div>
         <div className="form-group">
           <label>Password:</label>
