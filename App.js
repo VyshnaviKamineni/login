@@ -8,8 +8,8 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const validEmail = 'user@example.com';
-    const validPassword = 'password123';
+    const validEmail = 'user@test.com';
+    const validPassword = '123456';
 
     if (email === validEmail && password === validPassword) {
       setMessage('Login Successful!');
